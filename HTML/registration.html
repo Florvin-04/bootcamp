@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png?fbclid=IwAR2JF5aEy-Ah2IeeJ_8vL8vrGqvVCTFS49xhjw-T_fLKeFyuBnqe9K6VKQw"
+      alt="ISCP_Logo"
+      width="200px"
+    /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <form>
+      <h1>Basic Information</h1>
+      <label for="first_name">First Name: </label>
+      <input
+        type="text"
+        name="first_name"
+        id="first_name"
+        placeholder="ex. Juan"
+      /><br />
+      <label for="last_name">last Name: </label>
+      <input
+        type="text"
+        name="last_name"
+        id="last_name"
+        placeholder="ex. Dela Cruz"
+      /><br />
+      <label for="place_of_birth">Place of birth: </label>
+      <input
+        type="text"
+        name="place_of_birth"
+        id="place_of_birth"
+        placeholder="ex. Maragondon"
+      /><br />
+      <label for="birth_date">Birthdate: </label>
+      <input
+        type="date"
+        name="birth_date"
+        id="birth_date"
+      /><br />
+
+      <label for="civil_status">Civil status: </label>
+      <select
+        name=""
+        id=""
+      >
+        <option
+          disabled
+          selected
+        >
+          Select select one
+        </option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option>
+        <option value="separated">Separated</option>
+      </select>
+
+      <br />
+
+      <label for="gender">Gender: </label>
+      <input
+        type="radio"
+        name="gender"
+        value="male"
+        id="male"
+      />
+      <label for="male">Male</label>
+      <input
+        type="radio"
+        name="gender"
+        value="female"
+        id="female"
+      />
+      <label for="female">Female</label>
+      <input
+        type="radio"
+        name="gender"
+        value="other"
+        id="other"
+      />
+      <label for="other">Other</label>
+      <br />
+      <label for="mother_mainder_name">Mother's maiden name: </label>
+      <input
+        type="text"
+        name="mother_mainder_name"
+        id="mother_mainder_name"
+        placeholder="ex. Jeciel"
+      /><br />
+      <label for="father_name">Father's name: </label>
+      <input
+        type="text"
+        name="father_name"
+        id="father_name"
+        placeholder="ex. Baiden"
+      /><br />
+
+      <h1>Contact Information</h1>
+      <label for="email">Email Address: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="ex. example@gmail.com"
+      /><br />
+      <label for="mobile_no">Mobile number: </label>
+      <input
+        type="number"
+        name="mobile_no"
+        id="mobile_no"
+        placeholder="09123456789"
+      /><br />
+      <label for="telephone_no">Telephone number: </label>
+      <input
+        type="number"
+        name="telephone_no"
+        id="telephone_no"
+        placeholder="ex. 4121345"
+      /><br />
+
+      <h1>Address</h1>
+      <label for="street_no">Street number: </label>
+      <input
+        type="number"
+        name="street_no"
+        id="street_no"
+        placeholder="ex. 000"
+      /><br />
+      <label for="street_name">Street name: </label>
+      <input
+        type="text"
+        name="street_name"
+        id="street_name"
+        placeholder="ex. Poblacion"
+      /><br />
+      <label for="barangay">Barangay: </label>
+      <input
+        type="text"
+        name="barangay"
+        id="barangay"
+        placeholder="ex. Barrios"
+      /><br />
+      <label for="city_town">City / Town: </label>
+      <input
+        type="text"
+        name="city_town"
+        id="city_town"
+        placeholder="ex. Cavite"
+      /><br />
+      <label for="province">Province: </label>
+      <input
+        type="text"
+        name="province"
+        id="province"
+        placeholder="ex. Maragondon"
+      /><br />
+      <label for="full_address">Full_address: </label>
+      <input
+        type="text"
+        name="full_address"
+        id="full_address"
+        placeholder="ex. Poblacion Barrios Maragondon Cavite"
+      /><br />
+
+      <h1>Government iInformation</h1>
+      <label for="sss_id">SSS ID: </label>
+      <input
+        type="file"
+        name="sss_id"
+        id="sss_id"
+      /><br />
+      <label for="pag-ibig_id">Pag-Ibig ID: </label>
+      <input
+        type="file"
+        name="pag-ibig_id"
+        id="pag-ibig_id"
+      /><br />
+      <label for="philhealth_id">PhilHealth ID: </label>
+      <input
+        type="file"
+        name="philhealth_id"
+        id="philhealth_id"
+      /><br />
+      <label for="profile_pic">Upload 2x2 picture: </label>
+      <input
+        type="file"
+        name="profile_pic"
+        id="profile_pic"
+      /><br />
+      <label for="government_id">Upload picture of government ID: </label>
+      <input
+        type="file"
+        name="government_id"
+        id="government_id"
+      /><br />
+
+      <h1>Account information</h1>
+
+      <label for="Username">Username: </label>
+      <input
+        type="text"
+        name="Username"
+        id="Username"
+        placeholder="ex Juan"
+      /><br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="ex Juan123"
+      /><br />
+      <label for="confrim_password">Confrim Password: </label>
+      <input
+        type="password"
+        name="confrim_password"
+        id="confrim_password"
+        placeholder="ex Juan123"
+      /><br />
+      <label for="profile_image">Upload profile image: </label>
+      <input
+        type="file"
+        name="profile_image"
+        id="profile_image"
+      /><br />
+      <h2>Have you experienced any of the following in the last 30 days?</h2>
+
+      <input
+        type="checkbox"
+        name="coughing"
+        id="coughing"
+      />
+      <label for="coughing">Coughing: </label>
+
+      <input
+        type="checkbox"
+        name="fever"
+        id="fever"
+      />
+      <label for="fever">Fever: </label>
+
+      <input
+        type="checkbox"
+        name="headache"
+        id="headache"
+      />
+      <label for="headache">Headache: </label>
+
+      <input
+        type="checkbox"
+        name="common_cold"
+        id="common_cold"
+      />
+      <label for="common_cold">Common cold: </label>
+
+      <input
+        type="checkbox"
+        name="body_ache"
+        id="body_ache"
+      />
+      <label for="body_ache">Body ache: </label>
+
+      <input
+        type="checkbox"
+        name="sore_throat"
+        id="sore_throat"
+      />
+      <label for="sore_throat">Sore throat: </label>
+
+      <input
+        type="checkbox"
+        name="tiredness"
+        id="tiredness"
+      />
+      <label for="tiredness">Tiredness: </label>
+
+      <input
+        type="checkbox"
+        name="loss_of_smell"
+        id="loss_of_smell"
+      />
+      <label for="loss_of_smell">Loss of smell: </label>
+      <p>
+        I am Florvin Bayaborda, I'm a kodeGo student, I do love playing table tennis in my free time
+        sometimes
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: min(90%, 1400px);
+  margin-inline: auto;
+}
+
+.order__section {
+  /* outline: 1px solid red; */
+  display: flex;
+  gap: 150px;
+}
+
+.title {
+  margin-bottom: 0;
+
+  font-size: 80px;
+}
+
+.table__section {
+  width: 50%;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+td:not(.table-description):hover {
+  background-color: orange;
+}
+
+thead {
+  background-color: rgb(255, 200, 99);
+}
+
+.item-icon {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+}
+
+/* center only the images */
+table tr:not(:last-child) > td:first-child:not(.table-description) {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.menu-head {
+  background-color: rgb(255, 229, 182);
+}
+
+.table-description {
+  background-color: rgb(250, 238, 216);
+}
+
+.hero__img-section {
+  /* width: 28%; */
+}
+
+/* section 2 */
+
+.customer__form {
+    margin-top: 50px;
+  padding-block: 16px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.customer__form h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  /* outline: 1px solid red; */
+}
+
+.img__container {
+  /* outline: 1px solid red; */
+}
+
+.img__container > img {
+  width: 50%;
+  width: 300px;
+}
+
+form input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+
+form p {
+  margin: 0;
+  margin-top: 25px;
+}
+
+form button {
+  cursor: pointer;
+  margin-top: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}

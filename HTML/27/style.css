@@ -1,0 +1,73 @@
+thead {
+  background-color: rgb(255, 200, 99);
+}
+th.subh {
+  background-color: rgb(255, 229, 182);
+}
+#menu-footnote {
+  background-color: rgb(250, 238, 216);
+}
+
+table,
+th,
+td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+td.item-row:hover {
+  background-color: orange;
+}
+
+tr.item-row:hover {
+  background-color: orange;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.item-icon {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+}
+
+/* center only the images */
+table tr:not(:last-child) > td:first-child:not(.table-description) {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.logo {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+}
+
+.nav__wrapper {
+  /* outline: 1px solid red; */
+  display: flex;
+  align-items: center;
+
+  padding-inline: 1rem;
+}
+
+.carousel-inner {
+  /* height: 500px; */
+}
+
+/* .nav-item:hover{
+  background-color: red;
+} */
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.social-logo {
+  aspect-ratio: 2 / 2;
+  width: 50px;
+  object-fit: contain;
+}

@@ -1,0 +1,136 @@
+body {
+  font-family: Tahoma MS;
+  margin: 0px;
+  background-image: url("./img/bg-image.jpg");
+}
+
+.header {
+  padding: 20px;
+  background-color: rgb(70, 130, 180);
+}
+
+.header__nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.header__nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__nav li a:hover {
+  color: rgb(0, 0, 139);
+}
+
+.ministries {
+  text-transform: uppercase;
+  color: rgb(70, 130, 180);
+}
+
+.webiste__logo--section {
+  text-align: center;
+}
+
+.minister {
+  display: flex;
+  justify-content: center;
+}
+
+.minister__more--info {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.more--info__header {
+  color: rgb(70, 130, 180);
+}
+
+.more--info__link {
+  color: blue;
+}
+
+.more--info__link:hover {
+  color: magenta;
+}
+
+.more--info__link:active {
+  color: lime;
+}
+
+.more--info__link:visited {
+  color: orange;
+}
+
+.more__ministries--section {
+  display: flex;
+  justify-content: center;
+}
+
+.img__cross--left {
+  margin-right: 100px;
+}
+
+.img__cross--right {
+  margin-left: 100px;
+}
+
+.other__ministries,
+th,
+td {
+  border: 3px dotted black;
+  border-collapse: collapse;
+}
+
+th:hover,
+td:hover {
+  background-color: lightcoral;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  /* float: left; */
+  width: 180px;
+}
+
+.gallery__section {
+  display: flex;
+  justify-content: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.footer {
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+.footer--link {
+  color: rgb(160, 160, 160);
+}

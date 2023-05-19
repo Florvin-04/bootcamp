@@ -1,0 +1,81 @@
+body {
+  font-family: Tahoma MS;
+  margin: 0px;
+}
+
+.header {
+  padding: 5px;
+  background-color: rgb(70, 130, 180);
+
+  text-transform: uppercase;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.ministries {
+  text-transform: uppercase;
+  color: rgb(70, 130, 180);
+}
+
+/* .webiste__logo--section {
+  text-align: center;
+} */
+
+/* .minister {
+  display: flex;
+  justify-content: center;
+} */
+
+.minister__more--info {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.more--info__header {
+  color: rgb(70, 130, 180);
+}
+
+.more--info__link {
+  color: rgb(255, 0, 216);
+}
+
+.other_ministries {
+  margin-top: 30px;
+}
+
+@media (min-width: 1150px) {
+  .other_ministries {
+    list-style-position: inside;
+  }
+}
+
+.more__ministries--section {
+  display: flex;
+  justify-content: center;
+}
+
+.img__cross--left {
+  margin-right: 250px;
+}
+
+.img__cross--right {
+  margin-left: 250px;
+}
+
+.footer {
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+.footer--link {
+  color: rgb(160, 160, 160);
+}

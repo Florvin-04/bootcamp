@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <title>Bear Burger's - Order</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Order Here!</h1>
+      <div class="order__section">
+        <div class="table__section">
+          <table>
+            <thead>
+              <tr>
+                <td><b>Icons</b></td>
+                <td><b>Item Name</b></td>
+                <td><b>Price</b></td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th
+                  colspan="3"
+                  class="menu-head"
+                >
+                  Meal
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/burger.png"
+                    alt="burger"
+                  />
+                </td>
+                <td>Burger</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/friendChicken.png"
+                    alt="Friend Chicken"
+                  />
+                </td>
+                <td>Fried Chicken</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/spaghetti.png"
+                    alt="Spaghetti"
+                  />
+                </td>
+                <td>Spaghetti</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/pizza.png"
+                    alt="Pizza"
+                  />
+                </td>
+                <td>Pizza</td>
+                <td>₱155.00</td>
+              </tr>
+              <tr>
+                <th
+                  colspan="3"
+                  class="menu-head"
+                >
+                  Drinks
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/coke.png"
+                    alt="Coke"
+                  />
+                </td>
+                <td>Coke</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/sprite.png"
+                    alt="Sprite"
+                  />
+                </td>
+                <td>Sprite</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    class="item-icon"
+                    src="img/sarsi.JPG"
+                    alt="Sarsi"
+                  />
+                </td>
+                <td>Sarsi</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr>
+                <td
+                  colspan="2"
+                  rowspan="2"
+                  class="table-description"
+                >
+                  All items are subject to tax. No refund.<br />
+                  All items are not transferable.
+                </td>
+                <td>Extra Rice - ₱20.00</td>
+              </tr>
+              <tr>
+                <td>Condiments - ₱20.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="hero__img-section">
+          <img
+            class="img-fluid"
+            src="https://www.dellacasapasta.com/images/basil-sauce.png"
+            alt="basil-sauce"
+          />
+        </div>
+      </div>
+    </div>
+    
+    <section class="customer__form">
+      <div class="container">
+        <h1>Tell Us What You Think!</h1>
+        <div class="wrapper">
+          <div class="img__container">
+            <img
+              src="https://thumbs.dreamstime.com/b/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato-177814997.jpg"
+              alt="burger vertical"
+            />
+          </div>
+          <form>
+            <label for="name">Name (optional):</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+            />
+
+            <label for="province">Province (optional)</label>
+            <input
+              type="text"
+              name="province"
+              id="province"
+            />
+
+            <p>How many times have you went to out restaurant?</p>
+            <input
+              type="radio"
+              name="mul"
+              id="first"
+            />
+            <label for="first">This is the first time</label><br />
+
+            <input
+              type="radio"
+              name="mul"
+              id="second"
+            />
+            <label for="second">Second time</label><br />
+
+            <input
+              type="radio"
+              name="mul"
+              id="third"
+            />
+            <label for="third">Third time or more</label><br />
+
+            <p>How many times have you went to out restaurant?</p>
+            <input
+              type="radio"
+              name="star"
+              id="one"
+            />
+            <label for="one">⭐</label>
+            <input
+              type="radio"
+              name="star"
+              id="two"
+            />
+            <label for="two">⭐⭐</label>
+            <input
+              type="radio"
+              name="star"
+              id="three"
+            />
+            <label for="three">⭐⭐⭐</label>
+            <input
+              type="radio"
+              name="star"
+              id="four"
+            />
+            <label for="four">⭐⭐⭐⭐</label>
+            <input
+              type="radio"
+              name="star"
+              id="five"
+            />
+            <label for="five">⭐⭐⭐⭐⭐</label>
+
+            <p>How would you rate our services?</p>
+            <input
+              type="radio"
+              name="starRate"
+              id="rateOne"
+            />
+            <label for="rateOne">⭐</label>
+            <input
+              type="radio"
+              name="starRate"
+              id="rateTwo"
+            />
+            <label for="rateTwo">⭐⭐</label>
+            <input
+              type="radio"
+              name="starRate"
+              id="rateThree"
+            />
+            <label for="rateThree">⭐⭐⭐</label>
+            <input
+              type="radio"
+              name="starRate"
+              id="rateFour"
+            />
+            <label for="rateFour">⭐⭐⭐⭐</label>
+            <input
+              type="radio"
+              name="starRate"
+              id="rateFive"
+            />
+            <label for="rateFive">⭐⭐⭐⭐⭐</label><br />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
