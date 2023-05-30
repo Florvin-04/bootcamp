@@ -1,3 +1,6 @@
+
+prompt("asd")
+
 function runActivity() {
   let first_number = Number(prompt("Enter first number."));
   let second_number = prompt("Enter second number.");
