@@ -12,18 +12,13 @@ Wireless LAN adapter Local Area Connection* 1:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
 
-Wireless LAN adapter Local Area Connection* 10:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
 Wireless LAN adapter Wi-Fi:
 
    Connection-specific DNS Suffix  . : 
-   IPv6 Address. . . . . . . . . . . : 2001:4451:b26:fd00:5b5b:90fd:7f14:be90
-   Temporary IPv6 Address. . . . . . : 2001:4451:b26:fd00:69d9:f3af:798a:83a1
+   IPv6 Address. . . . . . . . . . . : 2001:4451:bc4:4000:75f7:d0a4:2fdc:df77
+   Temporary IPv6 Address. . . . . . : 2001:4451:bc4:4000:d47a:2839:4b95:5d7f
    Link-local IPv6 Address . . . . . : fe80::11e2:da84:9f8a:5b5a%18
-   IPv4 Address. . . . . . . . . . . : 192.168.1.7
+   IPv4 Address. . . . . . . . . . . : 192.168.1.10
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : fe80::1000%18
                                        192.168.1.1

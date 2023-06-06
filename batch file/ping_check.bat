@@ -2,7 +2,7 @@ echo off
 cls
 title  Network Routine
 echo Pinging Facebook...
-ping facebook.com
+ping google.com
 echo.
 echo Ping test complete!
 echo.
