@@ -1,0 +1,7 @@
+{
+  "turboConsoleLog.includeFileNameAndLineNum": true,
+  "turboConsoleLog.insertEmptyLineAfterLogMessage": false,
+  "turboConsoleLog.insertEmptyLineBeforeLogMessage": false,
+  "turboConsoleLog.quote": "`",
+  "turboConsoleLog.wrapLogMessage": true
+}
